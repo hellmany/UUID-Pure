@@ -1,0 +1,32 @@
+UUID-Pure
+
+Generate UUID v7 and get timestammp in ms from it
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make install
+
+
+Methods:
+
+
+uuidv7() - generates uuid v7
+uuidv8($data) - generates uuid v8 with hex of data
+
+uuid2tms($uuid) - returns time in ms from uuid
+
+Exmaple in example.pl file
+
+
+LICENSE AND COPYRIGHT
+
+This software is Copyright (c) 2024 by Yuri A. Kabaenkov.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)
+
