@@ -76,7 +76,7 @@ __DATA__
 
 =head1 NAME
 
-UUID::Pure - Generate UUID v7/v8 and get timestammp in ms from it
+UUID::Pure - Generate UUID v7/v8 and get timestamp in ms from it
 
 =head1 VERSION
 
@@ -86,7 +86,7 @@ Version 0.01
 
 =head1 SYNOPSIS
 
-    use UUID::Pure;
+   use UUID::Pure;
 
    my $uuid = uuidv7(); # gen uuid v7
    my $uuidv8 = uuidv8(); # gen uuid v8

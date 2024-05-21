@@ -1,6 +1,6 @@
 UUID-Pure
 
-Generate UUID v7/v8 and get timestammp in ms from it
+Generate UUID v7/v8 and get timestamp in ms from it
 
 INSTALLATION
 
@@ -19,7 +19,7 @@ uuidv8($data) - generates uuid v8 with hex of data
 
 uuid2tms($uuid) - returns time in ms from uuid
 
-Exmaple in example.pl file
+Example in example.pl file
 
 
 LICENSE AND COPYRIGHT

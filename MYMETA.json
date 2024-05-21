@@ -1,5 +1,5 @@
 {
-   "abstract" : "Generate UUID v7/v8 and get timestammp in ms from it",
+   "abstract" : "Generate UUID v7/v8 and get timestamp in ms from it",
    "author" : [
       "Yuri A. Kabaenkov <yk@rbmedia.io>"
    ],
