@@ -14,10 +14,11 @@ To install this module, run the following commands:
 Methods:
 
 
-uuidv7() - generates uuid v7
-uuidv8($data) - generates uuid v8 with hex of data
+   my $uuid = uuidv7(); # gen uuid v7
+   my ($uuid,$tms) = uuidv7(); # gen uuid v7 and get timestamp in ms
 
-uuid2tms($uuid) - returns time in ms from uuid
+   my $uuidv8 = uuidv8('shard1'); # gen uuid v8
+   my ($uuidv8,$tms) = uuidv7(); # gen uuid v8 and get timestamp in ms
 
 Example in example.pl file
 
