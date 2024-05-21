@@ -92,7 +92,7 @@ Version 0.01
    my ($uuid,$tms) = uuidv7(); # gen uuid v7 and get timestamp in ms
 
    my $uuidv8 = uuidv8('shard1'); # gen uuid v8
-   my ($uuidv8,$tms) = uuidv7(); # gen uuid v8 and get timestamp in ms
+   my ($uuidv8,$tms) = uuidv8(); # gen uuid v8 and get timestamp in ms
 
    my $tms = uuid2tms($uuid); # get timestamp in ms from uuid v7/v8
    
